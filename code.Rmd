@@ -1,0 +1,27 @@
+---
+title: Code
+---
+
+The following list provides links to the slides and code used in the guided coding sessions. The solutions to the challenges will be made available through RStudio Server.
+
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 id="day1" class="panel-title">
+<a data-toggle="collapse" href="#collapse2">Monday October 15: Introduction to social media research.</a>
+</h2>
+</div>
+<div id="collapse1" class="panel-collapse collapse in" style="margin:12px">
+
+<ul>
+<li><p><a href="slides/01-slides-intro.pdf">SLIDES: Introduction to social media research.</a></p>
+</li>
+
+<li><p><a href="code/00-setup.html">Introduction to RMarkdown and Setup</a> (<a href="code/00-setup.Rmd">.Rmd file</a>)</p>
+</li>
+
+</ul>
+</div>
+</div>
+</div>
+
