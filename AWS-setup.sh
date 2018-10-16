@@ -28,3 +28,20 @@ do
 done	
 
 
+# copying files and changing permissions
+for i in 0{1..9} {10..40}
+do
+	cp /home/rstudio/code/01-loops-functions.Rmd /home/vienna$i/code/
+	cp /home/rstudio/code/02-intro-text-analysis.Rmd /home/vienna$i/code/
+	cp /home/rstudio/code/03-quanteda-intro.Rmd /home/vienna$i/code/
+	cp /home/rstudio/code/04-dictionary-methods.Rmd /home/vienna$i/code/
+	cp /home/rstudio/code/challenge1.Rmd /home/vienna$i/code/
+	cp /home/rstudio/code/challenge2.Rmd /home/vienna$i/code/
+	cp /home/rstudio/data/trump-tweets.json /home/vienna$i/data/	
+	cp /home/rstudio/data/FB-UK-parties.csv /home/vienna$i/data/	
+	cp /home/rstudio/data/candidate-tweets.csv /home/vienna$i/data/	
+	cp /home/rstudio/data/liwc-dictionary.csv /home/vienna$i/data/	
+	sudo chown vienna$i -R /home/vienna$i/
+done
+
+
