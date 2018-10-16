@@ -8,7 +8,7 @@ The following list provides links to the slides and code used in the guided codi
 <div class="panel panel-default">
 <div class="panel-heading">
 <h2 id="day1" class="panel-title">
-<a data-toggle="collapse" href="#collapse2">Monday October 15: Introduction to social media research.</a>
+<a data-toggle="collapse" href="#collapse1">Monday October 15: Introduction to social media research.</a>
 </h2>
 </div>
 <div id="collapse1" class="panel-collapse collapse in" style="margin:12px">
@@ -25,3 +25,44 @@ The following list provides links to the slides and code used in the guided codi
 </div>
 </div>
 
+
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 id="day1" class="panel-title">
+<a data-toggle="collapse" href="#collapse2">Tuesday October 16: Text analysis using R.</a>
+</h2>
+</div>
+<div id="collapse2" class="panel-collapse collapse in" style="margin:12px">
+
+<ul>
+<li><p><a href="slides/02-intro-text-analysis.pdf">SLIDES: Introduction to automated text analysis.</a></p>
+</li>
+
+<li><p><a href="code/01-loops-functions.html">R refresher. Loops and functions.</a> (<a href="code/01-loops-functions.Rmd">.Rmd file</a>)</p>
+</li>
+
+
+<li><p><a href="code/02-intro-text-analysis.html">Basics of text analysis.</a> (<a href="code/02-intro-text-analysis.Rmd">.Rmd file</a>)</p>
+</li>
+
+<li><p><a href="code/03-quanteda-intro.html">Automated text analysis with quanteda.</a> (<a href="code/03-quanteda-intro.Rmd">.Rmd file</a>)</p>
+</li>
+
+<li><p><a href="code/challenge1.Rmd">Coding challenge 1 (.Rmd file)</a></p>
+</li>
+
+<li><p><a href="slides/03-dictionary-methods.pdf">SLIDES: Dictionary methods.</a></p>
+</li>
+
+<li><p><a href="code/04-dictionary-methods.html">Dictionary methods.</a> (<a href="code/04-dictionary-methods.Rmd">.Rmd file</a>)</p>
+</li>
+
+<li><p><a href="code/challenge2.Rmd">Coding challenge 2 (.Rmd file)</a></p>
+</li>
+
+
+</ul>
+</div>
+</div>
+</div>
