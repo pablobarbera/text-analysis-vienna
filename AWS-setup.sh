@@ -44,4 +44,9 @@ do
 	sudo chown vienna$i -R /home/vienna$i/
 done
 
-
+# copying files and changing permissions
+for i in 0{1..9} {10..40}
+do
+	cp /home/rstudio/code/challenge1-solutions.Rmd /home/vienna$i/code/
+	sudo chown vienna$i -R /home/vienna$i/
+done
