@@ -50,3 +50,35 @@ do
 	cp /home/rstudio/code/challenge1-solutions.Rmd /home/vienna$i/code/
 	sudo chown vienna$i -R /home/vienna$i/
 done
+
+
+# copying files and changing permissions
+for i in 0{1..9} {10..40}
+do
+	cp /home/rstudio/code/challenge2-solutions.Rmd /home/vienna$i/code/
+	sudo chown vienna$i -R /home/vienna$i/
+done
+
+
+# copying files and changing permissions
+for i in 0{1..9} {10..40}
+do
+	cp /home/rstudio/code/05-supervised-learning.Rmd /home/vienna$i/code/
+	cp /home/rstudio/code/06-advanced-supervised-learning.Rmd /home/vienna$i/code/
+	cp /home/rstudio/code/08-topic-models.Rmd /home/vienna$i/code/
+	cp /home/rstudio/code/07-text-discovery.Rmd /home/vienna$i/code/
+	cp /home/rstudio/code/09-advanced-topic-models.Rmd /home/vienna$i/code/
+
+	cp /home/rstudio/code/challenge3.Rmd /home/vienna$i/code/
+	cp /home/rstudio/code/challenge4.Rmd /home/vienna$i/code/
+	cp /home/rstudio/data/incivility.csv /home/vienna$i/data/	
+	cp /home/rstudio/data/UK-tweets.csv /home/vienna$i/data/	
+	cp /home/rstudio/data/nytimes.csv /home/vienna$i/data/	
+
+	mkdir /home/vienna$i/backup
+	cp /home/rstudio/backup/stm-output.Rdata /home/vienna$i/backup/
+
+	sudo chown vienna$i -R /home/vienna$i/
+done
+
+
