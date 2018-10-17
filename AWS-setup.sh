@@ -82,3 +82,34 @@ do
 done
 
 
+# copying files and changing permissions
+for i in 0{1..9} {10..40}
+do
+	cp /home/rstudio/code/challenge3-solutions.Rmd /home/vienna$i/code/
+	sudo chown vienna$i -R /home/vienna$i/
+done
+
+
+# preparing tokens
+for i in 0{1..9} {10..35} {38..40}
+do
+	cp /home/rstudio/ecpr-credentials/token$i /home/vienna$i/my_oauth
+	sudo chown vienna$i -R /home/vienna$i/
+done
+
+# copying files and changing permissions
+for i in 0{1..9} {10..40}
+do
+	cp /home/rstudio/code/10-twitter-streaming-data-collection.Rmd /home/vienna$i/code/
+	cp /home/rstudio/code/11-twitter-REST-data-collection.Rmd /home/vienna$i/code/
+	cp /home/rstudio/code/challenge5.Rmd /home/vienna$i/code/
+	cp /home/rstudio/code/challenge6.Rmd /home/vienna$i/code/
+	sudo chown vienna$i -R /home/vienna$i/
+done
+
+# copying files and changing permissions
+for i in 0{1..9} {10..40}
+do
+	cp /home/rstudio/code/challenge4-solutions.Rmd /home/vienna$i/code/
+	sudo chown vienna$i -R /home/vienna$i/
+done

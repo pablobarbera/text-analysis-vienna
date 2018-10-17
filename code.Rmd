@@ -111,3 +111,37 @@ The following list provides links to the slides and code used in the guided codi
 </div>
 </div>
 </div>
+
+
+
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 id="day3" class="panel-title">
+<a data-toggle="collapse" href="#collapse3">Thursday October 18: Collecting and analyzing Twitter data.</a>
+</h2>
+</div>
+<div id="collapse3" class="panel-collapse collapse in" style="margin:12px">
+
+<ul>
+<li><p><a href="slides/06-twitter-data.pdf">SLIDES: Twitter data.</a></p>
+</li>
+
+<li><p><a href="code/10-twitter-streaming-data-collection.html">Collecting data from Twitter's Streaming API.</a> (<a href="code/10-twitter-streaming-data-collection.Rmd">.Rmd file</a>)</p>
+</li>
+
+
+<li><p><a href="code/challenge5.Rmd">Coding challenge 5 (.Rmd file)</a></p>
+</li>
+
+<li><p><a href="code/11-twitter-REST-data-collection.html">Collecting data from Twitter's REST API.</a> (<a href="code/11-twitter-REST-data-collection.Rmd">.Rmd file</a>)</p>
+</li>
+
+<li><p><a href="code/challenge6.Rmd">Coding challenge 6 (.Rmd file)</a></p>
+</li>
+
+
+</ul>
+</div>
+</div>
+</div>
