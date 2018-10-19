@@ -113,3 +113,37 @@ do
 	cp /home/rstudio/code/challenge4-solutions.Rmd /home/vienna$i/code/
 	sudo chown vienna$i -R /home/vienna$i/
 done
+
+
+
+# copying files and changing permissions
+for i in 0{1..9} {10..40}
+do
+	cp /home/rstudio/code/challenge5-solutions.Rmd /home/vienna$i/code/
+	sudo chown vienna$i -R /home/vienna$i/
+done
+
+# copying files and changing permissions
+for i in 0{1..9} {10..40}
+do
+	cp /home/rstudio/code/challenge6-solutions.rmd /home/vienna$i/code/
+	sudo chown vienna$i -R /home/vienna$i/
+done
+
+# copying files and changing permissions
+for i in 0{1..9} {10..40}
+do
+	cp /home/rstudio/code/12-apis.Rmd /home/vienna$i/code/
+	cp /home/rstudio/code/13-word-embeddings.Rmd /home/vienna$i/code/
+	cp /home/rstudio/code/challenge7.Rmd /home/vienna$i/code/
+	cp /home/rstudio/code/vec.bin /home/vienna$i/code/
+	cp /home/rstudio/code/FBvec.bin /home/vienna$i/code/
+	sudo chown vienna$i -R /home/vienna$i/
+done
+
+# copying files and changing permissions
+for i in 0{1..9} {10..40}
+do
+	cp /home/rstudio/code/challenge7-solutions.Rmd /home/vienna$i/code/
+	sudo chown vienna$i -R /home/vienna$i/
+done

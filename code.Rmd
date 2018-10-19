@@ -145,3 +145,35 @@ The following list provides links to the slides and code used in the guided codi
 </div>
 </div>
 </div>
+
+
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 id="day3" class="panel-title">
+<a data-toggle="collapse" href="#collapse3">Friday October 19: Advanced topics.</a>
+</h2>
+</div>
+<div id="collapse3" class="panel-collapse collapse in" style="margin:12px">
+
+<ul>
+<li><p><a href="slides/07-APIs.pdf">SLIDES: APIs.</a></p>
+</li>
+
+<li><p><a href="code/12-apis.html">Working with the NYTimes API.</a> (<a href="code/12-apis.Rmd">.Rmd file</a>)</p>
+</li>
+
+<li><p><a href="code/challenge7.Rmd">Coding challenge 7 (.Rmd file)</a></p>
+</li>
+
+<li><p><a href="slides/08-embeddings.pdf">SLIDES: Word embeddings.</a></p>
+</li>
+
+<li><p><a href="code/13-word-embeddings.html">Word embeddings.</a> (<a href="code/13-word-embeddings.Rmd">.Rmd file</a>)</p>
+</li>
+
+
+</ul>
+</div>
+</div>
+</div>
